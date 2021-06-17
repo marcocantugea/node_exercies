@@ -1,0 +1,27 @@
+{
+  "name": "node_exercies",
+  "version": "1.0.0",
+  "description": "node application example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "test_repositories": "mocha ./test/repositories/auth_repository_unit_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcocantugea/node_exercies.git"
+  },
+  "author": "Marco Cantu Gea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcocantugea/node_exercies/issues"
+  },
+  "homepage": "https://github.com/marcocantugea/node_exercies#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nyc": "^15.1.0"
+  }
+}
