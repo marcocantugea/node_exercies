@@ -21,7 +21,9 @@
   "dependencies": {
     "chai": "^4.3.4",
     "express": "^4.17.1",
+    "mongoose": "^5.12.14",
     "mysql": "^2.18.1",
-    "nyc": "^15.1.0"
+    "nyc": "^15.1.0",
+    "underscore": "^1.13.1"
   }
 }
